@@ -1,6 +1,12 @@
 # JavaConcurrentCollectionBenchmark
-Running Concurrent Test for 40 cores
+
+Multithreaded performance test of 10000 insertions into a collection per thread, for 4 concurrent threads. The manually synchronized collections are only synchronized for writes.
+
+## Benchmarking results - concurrent WRITES
+
 ```bash
+Running Concurrent Test for 4 cores
+
 ========== Sequential collections ==========
 
 Running test for class java.util.ArrayList
